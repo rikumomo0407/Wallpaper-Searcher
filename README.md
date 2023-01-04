@@ -1,3 +1,3 @@
-# wallpaper-searcher
+# Wallpaper Searcher
 
 Coming soon
