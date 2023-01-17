@@ -1,0 +1,24 @@
+{
+  "setting": {
+    "visible": false,
+    "range": 400,
+    "vertical": 0,
+    "horizontal": 0,
+    "min_vertical": 0,
+    "min_horizontal": 0
+  },
+  "words": [
+    [
+      "wallpaper",
+      "https://www.google.co.jp/search?q=wallpaper&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjb8LLhucz8AhW8sVYBHQeUA58Q_AUoAXoECAEQAw"
+    ],
+    [
+      "cat",
+      "https://www.google.co.jp/search?q=cat&source=lnms&tbm=isch&sa=X&ved=2ahUKEwie5p_I1s78AhVYFTQIHT-5AWgQ_AUoAXoECAEQAw"
+    ]
+  ],
+  "rejected": [
+    "https://www.basicinvite.com/media/bi/33287/flower-power-wallpaper.jpg?q=1672331404",
+    "https://i.pinimg.com/736x/a3/1d/ff/a31dff627b8a9664a865ea105d4f4ab0.jpg"
+  ]
+}
