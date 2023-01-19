@@ -5,3 +5,11 @@
 詳しくは以下のダウンロード用サイトからご確認下さい。
 
 https://rikumomo0407.github.io/Wallpaper-Searcher/pages
+
+📁フォルダの説明
+
+このレポジトリの最上位ディレクトリは以下の4種類のファイルに分類されます。
+
+・ Wallpaper Searcher
+
+・ 
