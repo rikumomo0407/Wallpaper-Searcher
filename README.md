@@ -12,4 +12,16 @@ https://rikumomo0407.github.io/Wallpaper-Searcher/pages
 
 ・ Wallpaper Searcher
 
-・ 
+ソフトウェアのメインデータが閲覧できます。
+
+・ installer
+
+ここからインストーラーを入手できます。(ダウンロードサイトからも入手可能です)
+
+・pages
+
+ダウンロードサイトのデータ
+
+・source
+
+ソフトウェアのオープンソースが閲覧できます。
