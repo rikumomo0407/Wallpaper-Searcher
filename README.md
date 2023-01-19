@@ -14,7 +14,7 @@ https://rikumomo0407.github.io/Wallpaper-Searcher/pages
 
 📁フォルダの説明
 
-このレポジトリの最上位ディレクトリは以下の4種類のファイルに分類されます。
+このレポジトリの最上位ディレクトリは以下の4種類のフォルダで構成されます。
 
 ・ Wallpaper Searcher
 
