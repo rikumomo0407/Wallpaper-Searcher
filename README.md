@@ -22,7 +22,7 @@ https://rikumomo0407.github.io/Wallpaper-Searcher/pages
 
 ・pages
 
-ダウンロードサイトのデータ
+ダウンロードサイトのデータが格納されています。
 
 ・source
 
