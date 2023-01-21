@@ -31,3 +31,9 @@ https://rikumomo0407.github.io/Wallpaper-Searcher/pages
 ・source
 
 ソフトウェアのソースコードが閲覧できます。
+
+***
+
+## リリース
+
+現在は正式に公開されていません。
