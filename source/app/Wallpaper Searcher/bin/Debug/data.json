@@ -1,0 +1,27 @@
+{
+  "setting": {
+    "visible": false,
+    "range": 400,
+    "vertical": 0,
+    "horizontal": 0,
+    "min_vertical": 0,
+    "min_horizontal": 0
+  },
+  "words": [
+    [
+      "wallpaper",
+      "https://www.google.co.jp/search?q=wallpaper&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_-JiSgsf8AhWLJkQIHfAQAxcQ_AUoAXoECAEQAw"
+    ]
+  ],
+  "rejected": [
+    "https://www.playearth10.com/wp-content/uploads/2021/02/icelandlake2540.jpg",
+    "https://i.pinimg.com/originals/c2/42/db/c242db7cb0da239ec587e107d2cf4a3b.jpg",
+    "https://megido72-portal.com/img/wallpaper/megido_background07_1920x1080.png",
+    "https://p4.wallpaperbetter.com/wallpaper/817/576/40/nature-summer-1920x1200-wallpaper-preview.jpg",
+    "https://p4.wallpaperbetter.com/wallpaper/436/555/759/windows-backgrounds-nature-for-pc-1920x1200-wallpaper-preview.jpg",
+    "https://booth.pximg.net/f2930fc0-38fe-48a7-8ff5-770e8f6995ae/i/3051782/ab47735d-5eef-43bb-b9b3-c06702d857bc_base_resized.jpg",
+    "https://megido72-portal.com/img/wallpaper/megido_background03_1920x1080.png",
+    "https://cdn.pixabay.com/photo/2021/10/12/21/09/sunset-6704756__340.jpg",
+    "https://hep.eiz.jp/wp-content/uploads/2010/10/cool-wallpaper-19.jpg"
+  ]
+}
