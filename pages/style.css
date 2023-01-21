@@ -127,7 +127,6 @@ img{
     background: rgb(30, 30, 30);
 }
 
-
 .third{
     background: rgb(48, 48, 48);
 }
@@ -151,5 +150,9 @@ img{
 
     #top:after{
         bottom: 2%;
+    }
+
+    .summary{
+        font-size: 1.5vw;
     }
 }
