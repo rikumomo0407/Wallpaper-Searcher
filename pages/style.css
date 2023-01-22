@@ -24,23 +24,65 @@ img{
     color: #fff;
 }
 
-#menu ul{
+#menu{
     display: flex;
-    flex-wrap: none;
-    list-style: none;
-    padding: 0;
+    text-align: left;
 }
 
-#menu li+ li{
+#menu div, #menu ul li{
     margin-left: 30px;
 }
 
-#menu li a{
+#menu label,  #menu li a{
     color: gray;
 }
 
-#menu li a:hover{
+#menu label:hover, #menu li a:hover{
     color: #fff;
+}
+
+#menu div, #menu ul{
+    display: none;
+}
+
+#menu ul{
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    font-weight: 600;
+}
+
+#menu label{
+    cursor: pointer;
+}
+
+#menu #menu-button{
+    display: none;
+}
+
+#menu #menu-button:checked ~ ul{
+    display: flex;
+    animation: SlideIn 1s;
+}
+
+#menu input:checked + label{
+    color: #fff;
+}
+
+#menu #menu-button:checked ~ div{
+    display: block;
+    animation: SlideIn 1s;
+}
+
+@keyframes SlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 #app-title{
@@ -131,6 +173,120 @@ img{
     background: rgb(48, 48, 48);
 }
 
+#release{
+    padding: 3% 15%;
+}
+
+#release h1{
+    border-bottom: 2px solid gray;
+    margin-bottom: 2%;
+}
+
+#release ul{
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: none;
+    padding: 0 10px;
+}
+
+#release p{
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 5px 0 10px 35px;
+}
+
+#oss{
+    width: 100%;
+    text-align: center;
+    background-image: url("images/code.gif");
+    background-size: cover;
+    color: #fff;
+    padding: 10% 20%;
+}
+
+#oss p{
+    margin: 20px 0 10px;
+}
+
+#oss a:hover{
+    color: rgb(0, 255, 195);
+}
+
+#qanda{
+    padding: 3% 15%;
+}
+
+#qanda h1{
+    border-bottom: 2px solid gray;
+    margin: 20px 0;
+}
+
+#qanda ul{
+    list-style: none;
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#qanda li{
+    margin-bottom: 10px;
+}
+
+#qanda li p{
+    margin-left: 10px;
+}
+
+#qanda label{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(232, 232, 232);
+}
+
+#question-A, #question-B, #question-C, .answer-A, .answer-B, .answer-C{
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background: rgb(85, 0, 255);
+}
+
+#qanda #question-A:checked ~ .answer-A{
+    display: flex;
+    animation: SlideIn 1s;
+}
+
+#qanda #question-B:checked ~ .answer-B{
+    display: flex;
+    animation: SlideIn 1s;
+}
+
+#qanda #question-C:checked ~ .answer-C{
+    display: flex;
+    animation: SlideLabel 1s;
+}
+
+@keyframes SlideLabel {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#qanda #message{
+    margin-top: 30px;
+}
+
+#qanda #message a{
+    color: blue;
+}
+
 .footer{
     display: flex;
     justify-content: center;
@@ -144,8 +300,6 @@ img{
 @media screen and (max-width: 782px){
     #app-title{
         font-size: 10vw;
-        /* padding-top: 6vh; */
-        /* padding-bottom: 5vh; */
     }
 
     #top:after{
