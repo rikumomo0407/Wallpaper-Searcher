@@ -34,9 +34,13 @@
 <body>
     <div id="top">
         <div id="menu">
+            <input type="checkbox" id="menu-button">
+            <label for="menu-button">MENU</label>
+            <div><i class="fa fa-play-circle"></i></div>
             <ul>
-                <li><a href="https://rikumomo0407.github.io/Wallpaper-Searcher/pages">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
+                <li><a href="#jump-to-summary">INSTRUCTION</a></li>
+                <li><a href="#release">RELEASE</a></li>
+                <li><a href="#qanda">FAQ</a></li>
                 <li><a href="https://github.com/rikumomo0407/Wallpaper-Searcher">GITHUB</a></li>
             </ul>
         </div>
@@ -45,6 +49,7 @@
         <script async src="main.js"></script>
         <p id="btn-install"><a href="https://github.com/rikumomo0407/Wallpaper-Searcher/releases/download/beta/Wallpaper.Searcher.zip" download><i class="fa-brands fa-windows"></i>&nbsp;ベータ版をダウンロード</a></p>
     </div>
+    <span id="jump-to-summary"></span>
     <div class="summary first">
         <div>
             <h1>1.&nbsp;アプリからあなたの好きな単語を設定します。</h1>
@@ -53,15 +58,47 @@
     </div>
     <div class="summary second">
         <div> 
-            <h1>2.&nbsp;プログラムがGoogleで単語を検索し、画像を取得します。</h1>
+            <h1>2.&nbsp;プログラムがGoogleから単語を検索し、画像を取得します。</h1>
             <img src="images/web_search.svg" alt="second summary">
         </div>
     </div>
     <div class="summary third">
         <div>
-            <h1>3.&nbsp;取得した画像をデスクトップ画面の壁紙に自動で設定します。</h1>
+            <h1>3.&nbsp;取得した画像をデスクトップ画面の背景に自動で設定します。</h1>
             <img src="images/posting_photo.svg" alt="third summary">
         </div>
+    </div>
+    <div id="release">
+        <h1>リリース情報</h1>
+        <ul>
+            <li>&#x2B50;&nbsp;β 1.0.0&nbsp;(<time>23-1-23</time>)<p>ベータ版のリリース。</p></li>
+        </ul>
+    </div>
+    <div id="oss">
+        <h1>OSS</h1>
+        <p>このソフトウェアはオープンソースソフトウェア(OSS)です。ソースコードは以下のURLから参照できます。画像収集などのスクリプト部分はPython、設定フォームなどのUI部分はC#を使用しています。コードの閲覧や個人間での使用は自由ですが、配布や商用利用等はお控えください。</p>
+        <a href="https://github.com/rikumomo0407/Wallpaper-Searcher/tree/main/source"><p>https://github.com/rikumomo0407/Wallpaper-Searcher/tree/main/source</p></a>
+    </div>
+    <div id="qanda">
+        <h1>よくある質問</h1>
+        <ul>
+            <li>
+                <input type="checkbox" id="question-A">
+                <label for="question-A">Q.&nbsp;どうやって画像を取得していますか？</label>
+                <div class="answer-A">A.<p>Seleinumというスクレイピングツールを使ってGoogleの画像検索結果からランダムに画像を取得しています。</p></div>
+            </li>
+            <li>
+                <input type="checkbox" id="question-B">
+                <label for="question-B">Q.&nbsp;ウイルスソフトとして検出されました。</label>
+                <div class="answer-B">A.<p>個人で制作しているソフトウェアためセキュリティソフトなどにウイルス性があると認識されてしまう場合があります。当ソフトにはウイルスなどのPCに害を与えるプログラムは一切仕込んでおりません。</p></div>
+            </li>
+            <li>
+                <input type="checkbox" id="question-C">
+                <label for="question-C">Q.&nbsp;壁紙が変わりません。</label>
+                <div class="answer-C">A.<p>なんらかの不具合が起きている可能性があります。ソフトウェアの更新、または再インストールを推奨します。</p></div>
+            </li>
+        </ul>
+        <div id="message">その他の質問は<a href="https://mail.google.com/mail/?view=cm&to=rikumomo0407@gmail.com&su=Qestion-Wallpaper-Searcher">こちら</a>から送信ください。</div>
     </div>
     <div class="footer">
         <p>© Copyright 2022 rikumomo0407 All rights reserved.</p>
