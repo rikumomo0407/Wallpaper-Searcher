@@ -255,12 +255,12 @@ img{
 
 #qanda #question-A:checked ~ .answer-A{
     display: flex;
-    animation: SlideIn 1s;
+    animation: SlideLabel 1s;
 }
 
 #qanda #question-B:checked ~ .answer-B{
     display: flex;
-    animation: SlideIn 1s;
+    animation: SlideLabel 1s;
 }
 
 #qanda #question-C:checked ~ .answer-C{
