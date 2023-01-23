@@ -174,7 +174,7 @@ img{
 }
 
 #release{
-    padding: 5% 10%;
+    padding: 10%;
 }
 
 #release h1{
@@ -213,7 +213,7 @@ img{
 }
 
 #qanda{
-    padding: 5% 15%;
+    padding: 10%;
 }
 
 #qanda h1{
@@ -294,7 +294,7 @@ img{
     text-align: center;
     padding: 20px;
     color: rgb(66, 66, 66);
-    background-color: gray;
+    background-color: rgb(200, 200, 200);
 }
 
 @media screen and (max-width: 782px){
