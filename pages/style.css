@@ -323,7 +323,7 @@ img{
     }
 }
 
-@media screen and (max-height: 400px){
+@media screen and (max-height: 500px){
     #top:after{
         display: none;
     }
