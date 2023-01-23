@@ -294,7 +294,7 @@ img{
     text-align: center;
     padding: 20px;
     color: rgb(66, 66, 66);
-    background-color: #ffffff;
+    background-color: gray;
 }
 
 @media screen and (max-width: 782px){
@@ -308,5 +308,23 @@ img{
 
     .summary{
         font-size: 1.5vw;
+    }
+    
+    #release{
+        padding: 3% 10%;
+    }
+    
+    #oss{
+        padding: 10%;
+    }
+    
+    #qanda{
+        padding: 3% 10%;
+    }
+}
+
+@media screen and (max-height: 400px){
+    #top:after{
+        display: none;
     }
 }
