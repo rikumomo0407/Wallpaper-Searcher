@@ -174,7 +174,7 @@ img{
 }
 
 #release{
-    padding: 3% 15%;
+    padding: 5% 10%;
 }
 
 #release h1{
@@ -213,12 +213,12 @@ img{
 }
 
 #qanda{
-    padding: 3% 15%;
+    padding: 5% 15%;
 }
 
 #qanda h1{
     border-bottom: 2px solid gray;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 #qanda ul{
