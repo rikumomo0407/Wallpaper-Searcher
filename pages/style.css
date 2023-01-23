@@ -174,7 +174,7 @@ img{
 }
 
 #release{
-    padding: 10%;
+    padding: 10% 20%;
 }
 
 #release h1{
@@ -213,7 +213,7 @@ img{
 }
 
 #qanda{
-    padding: 10%;
+    padding: 10% 20%;
 }
 
 #qanda h1{
@@ -311,7 +311,7 @@ img{
     }
     
     #release{
-        padding: 3% 10%;
+        padding: 10%;
     }
     
     #oss{
@@ -319,7 +319,7 @@ img{
     }
     
     #qanda{
-        padding: 3% 10%;
+        padding: 10%;
     }
 }
 
