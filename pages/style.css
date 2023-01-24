@@ -311,7 +311,7 @@ img{
     }
     
     #release{
-        padding: 10%;
+        padding: 10% 5%;
     }
     
     #oss{
@@ -319,12 +319,16 @@ img{
     }
     
     #qanda{
-        padding: 10%;
+        padding: 10% 5%;
     }
 }
 
 @media screen and (max-height: 500px){
     #top:after{
         display: none;
+    }
+
+    #app-title{
+        padding-top: 5vh;
     }
 }
