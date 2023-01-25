@@ -246,6 +246,7 @@ img{
 
 #question-A, #question-B, #question-C, .answer-A, .answer-B, .answer-C{
     display: none;
+    width: fit-content;
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
