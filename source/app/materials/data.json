@@ -10,11 +10,11 @@
   "words": [
     [
       "wallpaper",
-      "https://www.google.co.jp/search?q=wallpaper&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjb8LLhucz8AhW8sVYBHQeUA58Q_AUoAXoECAEQAw"
+      "https://www.google.co.jp/search?q=wallpaper&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_-JiSgsf8AhWLJkQIHfAQAxcQ_AUoAXoECAEQAw"
     ]
   ],
   "rejected": [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf3Urm74GgM97yj5m5rWwjYVa-IkcFq85rg&usqp=CAU",
-    "https://thumbs.dreamstime.com/b/print-wallpaper-fantasy-design-modern-art-fog-forest-colored-mystic-background-magical-magic-artistic-fairytale-dream-113837169.jpg"
-  ]
+    ""
+  ],
+  "savePath": ""
 }
