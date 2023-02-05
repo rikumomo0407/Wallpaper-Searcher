@@ -16,9 +16,9 @@ https://rikumomo0407.github.io/Wallpaper-Searcher/pages
 
 このレポジトリの最上位ディレクトリは以下の4種類のフォルダで構成されます。
 
-・ Wallpaper Searcher
+・ app
 
-ソフトウェアの配布用の中身が閲覧できます。
+配布用ソフトウェアの中身が閲覧できます。
 
 ・ installer
 
