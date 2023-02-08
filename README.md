@@ -38,6 +38,8 @@ https://rikumomo0407.github.io/Wallpaper-Searcher/pages
 ⭐ β 0.1.0 (23-01-28)
 ベータ版をZIPファイルで公開。
 
+***
+
 ## リリース
 
 現在は正式に公開されていません。
