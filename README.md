@@ -39,7 +39,7 @@ https://rikumomo0407.github.io/Wallpaper-Searcher/pages
 フォームのサイズを拡大、データ容量の削減、プログラムの不具合を修正
 
 ⭐ β 0.1.0 (23-01-28)
-ベータ版をZIPファイルで公開。
+ベータ版をZIPファイルで公開
 
 ***
 
