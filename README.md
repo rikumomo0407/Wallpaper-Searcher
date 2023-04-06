@@ -29,6 +29,7 @@ https://rikumomo0407.github.io/Wallpaper-Searcher/pages
 ソフトウェアのソースコードが閲覧できます。
 
 ・update
+
 アップデート用のリリース履歴が保存されています。
 
 ***
