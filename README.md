@@ -30,7 +30,7 @@ https://rikumomo0407.github.io/Wallpaper-Searcher/pages
 
 ・update
 
-アップデート用のリリース履歴が保存されています。
+アップデート用の更新履歴が保存されています。
 
 ***
 
