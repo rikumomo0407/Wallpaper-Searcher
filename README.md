@@ -49,4 +49,4 @@ https://rikumomo0407.github.io/Wallpaper-Searcher/pages
 
 ## リリース
 
-現在は正式に公開されていません。
+現在は正式に公開されていません。ベータ版のダウンロードは可能ですが自己責任でお願いします。
